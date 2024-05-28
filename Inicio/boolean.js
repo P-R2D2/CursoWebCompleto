@@ -21,3 +21,6 @@ console.log(!!undefined)
 console.log(!!(isAtivo = false))
 console.log('pra finalizar...')
 console.log(!!('' || null || 0 || ' '))
+
+let nome = 'Mauricio'
+console.log(nome || 'Desconhecido') // se a variável nome for verdadeira, imprime ela, se não, imprime 'Desconhecido'
